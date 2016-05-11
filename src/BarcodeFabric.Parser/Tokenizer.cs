@@ -86,7 +86,7 @@ namespace BarcodeFabric.Parser
 
         public void Take(char[] target, int targetStart, int sourceStart, int length)
         {
-            if (sourceStart + length >= _data.Length)
+            if (sourceStart + length > _data.Length)
             {
                 throw new ParseException($"Cannot copy {length} bytes starting from {sourceStart} since available data is {_data.Length}");
             }
