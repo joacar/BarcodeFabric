@@ -61,11 +61,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\BarcodeFabric.Core\BarcodeFabric.Core.csproj">
+    <ProjectReference Include="..\..\src\BarcodeFabric.Core\BarcodeFabric.Core.csproj">
       <Project>{ABD72E17-4B48-4B90-9DAE-18685F7B74AE}</Project>
       <Name>BarcodeFabric.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\src\BarcodeFabric.Parser\BarcodeFabric.Parser.csproj">
+    <ProjectReference Include="..\..\src\BarcodeFabric.Parser\BarcodeFabric.Parser.csproj">
       <Project>{EDE56646-BEC6-45FC-9C80-901F2FACCE2D}</Project>
       <Name>BarcodeFabric.Parser</Name>
     </ProjectReference>
